@@ -51,7 +51,7 @@ class LoginActivity : BaseActivity(), LoginContract.View, View.OnClickListener {
          * databinding
          */
         loginBinding = DataBindingUtil.setContentView(this, R.layout.activity_login)
-        loginBinding.loginXML = LoginXML("13048000897", "123456")
+//        loginBinding.loginXML = LoginXML("13048000897", "123456")
 
 
         /**
