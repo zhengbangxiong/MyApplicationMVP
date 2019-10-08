@@ -48,7 +48,6 @@ class LoginActivity : BaseActivity(), LoginContract.View, View.OnClickListener {
 //        setContentView(R.layout.activity_login)
 
         /**
-         * @author:zhengbangxiong
          * databinding
          */
         loginBinding = DataBindingUtil.setContentView(this, R.layout.activity_login)
