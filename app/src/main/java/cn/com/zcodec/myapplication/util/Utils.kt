@@ -61,8 +61,12 @@ object Utils{
         }
     }
 
+    /**
+     * 网络报错提示
+     * @date: 2019-10-14
+     */
     fun checkException(ex: Throwable): String {
-        Log.e("zz","${ex.message}",ex)
+//        Log.e("zz","${ex.message}",ex)
         return when (ex) {
             is SocketTimeoutException -> "连接超时，请检查网络"
             is NetworkErrorException -> "网络连接错误，请检查网络"
